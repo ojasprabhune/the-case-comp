@@ -1,0 +1,45 @@
+:root {
+  --black: #01161e;
+  --green: #124559;
+  --blue: #598392;
+  --gray: #aec3b0;
+  --beige: #eff6e0;
+}
+
+[data-theme="dark"] {
+  --black: #01161e;
+  --green: #124559;
+  --blue: #598392;
+  --gray: #aec3b0;
+  --beige: #eff6e0;
+}
+
+[data-theme="light"] {
+  --black: #eff6e0;
+  --green: #aec3b0;
+  --blue: #598392;
+  --gray: #124559;
+  --beige: #01161e;
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  height: 100%;
+  overscroll-behavior: none;
+  transition: none;
+  background-color: var(--black);
+}
+
+button {
+  font-family: inherit;
+}

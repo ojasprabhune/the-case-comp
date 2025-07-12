@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "Regular";
+  src: local("ClashDisplay"),
+    url("../fonts/ClashDisplay-Regular.otf") format("opentype");
+}
