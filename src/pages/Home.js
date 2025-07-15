@@ -186,16 +186,6 @@ const GetStartedText = styled.p`
   line-height: 1.6;
 `;
 
-const FirstDiv = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  width: 80%;
-  margin: 32px auto;
-  gap: 40px;
-`;
-
 const Space = styled.div`
   background: var(--blue);
   min-height: 40px;
